@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Thor Chimera Logo" width="200"/>
+  <img src="pic/thor_chimeralogo.jpg" alt="Thor Chimera Logo" width="200"/>
 </p>
 
 <h1 align="center">⚡ Thor Chimera ⚡</h1>
