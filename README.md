@@ -26,6 +26,13 @@
   <img src="https://img.shields.io/badge/protocols-7+-purple?style=for-the-badge" alt="Protocols"/>
 </p>
 
+<p align="center">
+  <a href="misc/device_menu.md">
+    <img src="https://img.shields.io/badge/📋_ALL_LIST_FEATURES-Apri_Menu-blue?style=for-the-badge" alt="ALL LIST FEATURES"/>
+  </a>
+</p>
+
+
 ---
 
 ## 🎯 Overview
