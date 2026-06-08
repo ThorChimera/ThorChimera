@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="/misc/device_menus.md">
-    <img src="https://img.shields.io/badge/📋_ALL_LIST_FEATURES-Apri_Menu-blue?style=for-the-badge" alt="ALL LIST FEATURES"/>
+    <img src="https://img.shields.io/badge/📋_ALL_LIST_FEATURES-Open_Menu-blue?style=for-the-badge" alt="ALL LIST FEATURES"/>
   </a>
 </p>
 
