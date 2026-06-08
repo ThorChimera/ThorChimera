@@ -26,8 +26,8 @@ This document describes the menu structure and functionality of the device.
 
 ### Submenus
 
-| Submenu | Description | Status |
-|---------|-------------|--------|
+| Submenu | Description |
+|---------|-------------|
 | **ESPS3 IR** | Infrared transmitter/receiver controls |
 | **ESPS3 RF** | Radio frequency communication module (CC1101 features) |
 | **ESPS3 WIFI** | Wireless network functions |
@@ -40,7 +40,7 @@ This document describes the menu structure and functionality of the device.
 | **AUTOMOTIVE RF** | decodes many car remote controls |
 | **ESPS3 PN532** | copy and emulate tag nfc |
 | **ESPS3 OTHERS** | more features |
-| ** Bridge App To S3** | Use this command to connect your apk or fap to ThorChimera |
+| **Bridge App To S3** | Use this command to connect your apk or fap to ThorChimera |
 | **ESP serial STOP** | This function is in every menu, it is used to close the operations in progress if they remain active, by pressing it 4/5 times, if the LED flashes the ESP is again waiting for commands |
 
 #### ESPS3 IR Submenu 
@@ -105,8 +105,8 @@ This document describes the menu structure and functionality of the device.
 | **Skimmer Finder** | Find any BLE card skimmer (HC-06/HC-05/HC-04 and others) |
 | **Airtag Finder** | Find Airtag with distance, Find ipad/mac and iphone in lost mode or not conneted to internet |
 | **BLE Scan** | return list of any ble device nearby |
-| ** Flipper Scan** | find any flipper zero nearby |
-| ** Meta Glasses**| find meta glasses nearby |
+| **Flipper Scan** | find any flipper zero nearby |
+| **Meta Glasses**| find meta glasses nearby |
 
 
 
@@ -147,8 +147,8 @@ This document describes the menu structure and functionality of the device.
 
 | Function | Description |
 |----------|-------------|
-| **USB ESP List ** | with this features you have a selectable list from your scritpt in sd and you can send your favourite USB script with esp s3 usb to your pc/iphone/android and more |
-| **USB FAV ESP ** | You can choose from webui your favorite script , with this features  you can send your favourite USB script with esp s3 usb to your pc/iphone/android and more  |
+| **USB ESP List** | with this features you have a selectable list from your scritpt in sd and you can send your favourite USB script with esp s3 usb to your pc/iphone/android and more |
+| **USB FAV ESP** | You can choose from webui your favorite script , with this features  you can send your favourite USB script with esp s3 usb to your pc/iphone/android and more  |
 
 
 
@@ -161,15 +161,15 @@ This document describes the menu structure and functionality of the device.
 
 | Function | Description |
 |----------|-------------|
-| **CHAM CONNECT ** | Must be first , connect your device to chameleon ultra via ble |
-| **CHAM DISCONNECT ** | Disconnect your device to chameleon ultra |
+| **CHAM CONNECT** | Must be first , connect your device to chameleon ultra via ble |
+| **CHAM DISCONNECT** | Disconnect your device to chameleon ultra |
 | **ChamList EMULATE**| You use existing file saved to sd and emulate with Chameleon Ultra |
-| **CHAM HF READ ** | You can see Data Tag HF |
-| **CHAM LF READ ** | You can see Data Tag LF |
-| **CHAM HF SAVE ** | You can see Data Tag HF and save to ThorChimera SD |
-| **CHAM LF SAVE ** | You can see Data Tag LF and save to ThorChimera SD |
-| **CHAM SEL SLOT ** | You can change slot of your Chameleon Ultra |
-| **CHAM BATTERY ** | You can see battery status of Chameleon Ultra|
+| **CHAM HF READ** | You can see Data Tag HF |
+| **CHAM LF READ** | You can see Data Tag LF |
+| **CHAM HF SAVE** | You can see Data Tag HF and save to ThorChimera SD |
+| **CHAM LF SAVE** | You can see Data Tag LF and save to ThorChimera SD |
+| **CHAM SEL SLOT** | You can change slot of your Chameleon Ultra |
+| **CHAM BATTERY** | You can see battery status of Chameleon Ultra|
 | **CHAM FACRESET** | Factory reset Chameleon Ultra |
 
 
@@ -207,10 +207,10 @@ This document describes the menu structure and functionality of the device.
 
 | Function | Description |
 |----------|-------------|
-| **START 433 ** | with this features you scan automotive RF remote controll in 433Mhz range  |
-| **START 868 ** | with this features you scan automotive RF remote controll in 868Mhz range (experimental)  |
-| **START 315 ** | with this features you scan automotive RF remote controll in 315Mhz range (experimental)  |
-| ** STOP **| Force stop of all AUTOMOTIVE RF function (press 4/5 times and wait led blink) |
+| **START 433** | with this features you scan automotive RF remote controll in 433Mhz range  |
+| **START 868** | with this features you scan automotive RF remote controll in 868Mhz range (experimental)  |
+| **START 315** | with this features you scan automotive RF remote controll in 315Mhz range (experimental)  |
+| **STOP**| Force stop of all AUTOMOTIVE RF function (press 4/5 times and wait led blink) |
 
 
 
@@ -227,8 +227,8 @@ This document describes the menu structure and functionality of the device.
 
 | Function | Description |
 |----------|-------------|
-| **NFC SCAN ** | Scan and info of NFC Tags |
-| **NFC DUMP ** | Copy and save NFC Tag to SD |
+| **NFC SCAN** | Scan and info of NFC Tags |
+| **NFC DUMP** | Copy and save NFC Tag to SD |
 | **NFC EMULATE**| You use existing file saved to sd and emulate with NFC |
 | **NFC WRITE**| You use existing file saved to sd and write only in compatible tags |
 
@@ -246,16 +246,15 @@ This document describes the menu structure and functionality of the device.
 
 | Function | Description |
 |----------|-------------|
-| **I2C SCANNER ** | scan any  i2c device connected ad return address (you need to conect any i2c device to to 3v3, GND, SDA, SCL) |
-| **IC2 ACCELEROMETER ** | information about axis of accelerometer (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL)  |
-| **IC2 BUBBLELEVEL ** | Bubble that levelingthing with accelerometer (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL) |
-| **THOR AIRMOUSE ** | conect your phone/pc or other to esp bluetooth and use like mouse (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL) |
-| **GEIGER COUNTER ** | This function displays the millisievers detected by an analog Geiger counter and averages the msv in 5 seconds and 1 minute. (DO NOT CONNECT 5V TO THOR CHIMERA OR YOU WILL DESTROY YOUR DEVICE , GEIGER COUNTER MUST POWERED BY 3X SEPARATE NON RECHARGABLE AAA BATTERY) conect only GND and Pin 47 to GND and pin VIN of Geiger counter.|
-| **ESP FIRMWARE V ** | Display firmware version of ESPS3 MCU every 5second |
+| **I2C SCANNER** | scan any  i2c device connected ad return address (you need to conect any i2c device to to 3v3, GND, SDA, SCL) |
+| **IC2 ACCELEROMETER** | information about axis of accelerometer (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL)  |
+| **IC2 BUBBLELEVEL** | Bubble that levelingthing with accelerometer (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL) |
+| **THOR AIRMOUSE** | conect your phone/pc or other to esp bluetooth and use like mouse (you need to conect accelerometer adxl345 to 3v3, GND, SDA, SCL) |
+| **GEIGER COUNTER** | This function displays the millisievers detected by an analog Geiger counter and averages the msv in 5 seconds and 1 minute. (DO NOT CONNECT 5V TO THOR CHIMERA OR YOU WILL DESTROY YOUR DEVICE , GEIGER COUNTER MUST POWERED BY 3X SEPARATE NON RECHARGABLE AAA BATTERY) conect only GND and Pin 47 to GND and pin VIN of Geiger counter.|
+| **ESP FIRMWARE V** | Display firmware version of ESPS3 MCU every 5second |
 | **FORMAT SD CARD** | Erase all files i SD CARD |
-| **HARDWARE CHECK ** | Reboot ESPS3 and check main hardware |
+| **HARDWARE CHECK** | Reboot ESPS3 and check main hardware |
 
-////////
 
 
 ## 📶 Wifi
@@ -358,5 +357,5 @@ This document describes the menu structure and functionality of the device.
 
 ---
 
-
+**more other features are avaiable in menus ;)**
 **All experimental features are hardcoded and are limited by hardware**
